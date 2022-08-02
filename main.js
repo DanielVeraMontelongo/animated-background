@@ -1,5 +1,5 @@
-let ancho = screen.width;
-let alto = screen.height + 110;
+let ancho = screen.width + 220;
+let alto = screen.height + 220;
 let content = ''
 let container = document.querySelector('.container')
 
@@ -13,6 +13,14 @@ while(alto > 0){
     container.innerHTML += '<div class="row">'+ content +'</div>'
     alto -= 110;
 }
+
+let persona = {
+
+    nombre: "Paco",
+    apellidos: "García"
+}
+
+
 
 
 
